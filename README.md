@@ -1,0 +1,2 @@
+# IG-Summer-AI
+Assigments
