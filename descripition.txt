@@ -1,0 +1,13 @@
+In mnist data set i observed following things 
+1. i search for the best parameters in stack overflow to get best accuracy
+2. i used adam optimizor to tune all my paramneters
+3. i applied 32 filters in the first convoution layer and a relu layer to increase non linearity::stride of 1 and and padding of 1 
+4. and then in next layer i have applied 64 filters stride 1 and ppadding of 2
+5. in those two layers a 5 X 5 kernal is used to convolve the image
+6. and after the convolution operation an Ann of 2 layers is used 10 predict the class of the given images
+7. relu activation is used in these layers
+8. categrorical cross entrpoy los fucntion is employed as it is a multi class problem
+9. cnn is trained as par stack over flow's best fit hyper paramneters 
+10. i only triend adama because my systemm took 30 muniutes to train with only 6 apoches so i cant afford for sklearn grid search of cross validation technique 
+to try out all the hyper parameters
+11. https://adventuresinmachinelearning.com/convolutional-neural-networks-tutorial-in-pytorch/ i have read this article and my code is parlty(75 %) inspired form it 
